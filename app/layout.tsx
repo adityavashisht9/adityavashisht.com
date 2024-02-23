@@ -29,7 +29,7 @@ export default function RootLayout({
             <header className="flex justify-between">
               <NavBar />
             </header>
-            <main className="mt-16 mb-8 sm:mt-24">{children}</main>
+            <main className="mt-12 mb-8 sm:mt-24">{children}</main>
           </div>
           <footer>
             <div className="flex items-center justify-between">
