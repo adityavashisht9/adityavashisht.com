@@ -35,16 +35,28 @@ export default function RootLayout({
             <div className="flex items-center justify-between">
               <p>Aditya Vashisht © 2024</p>
               <div className="flex items-center">
-                <Link href="https://github.com/adityavashisht9">
-                  <GitHubLogoIcon className="w-4 h-4 mr-3" />
+                <Link
+                  href="https://github.com/adityavashisht9"
+                  className="hover:bg-accent p-2"
+                >
+                  <GitHubLogoIcon className="w-4 h-4" />
                 </Link>
-                <Link href="https://www.linkedin.com/in/adityavashisht">
-                  <LinkedInLogoIcon className="w-4 h-4 mr-3" />
+                <Link
+                  href="https://www.linkedin.com/in/adityavashisht"
+                  className="hover:bg-accent p-2"
+                >
+                  <LinkedInLogoIcon className="w-4 h-4" />
                 </Link>
-                <Link href="https://twitter.com/vashishtaditya_">
-                  <TwitterLogoIcon className="w-4 h-4 mr-3" />
+                <Link
+                  href="https://twitter.com/vashishtaditya_"
+                  className="hover:bg-accent p-2"
+                >
+                  <TwitterLogoIcon className="w-4 h-4" />
                 </Link>
-                <Link href="mailto:adityavashisht03@gmail.com">
+                <Link
+                  href="mailto:adityavashisht03@gmail.com"
+                  className="hover:bg-accent p-2"
+                >
                   <EnvelopeClosedIcon className="w-4 h-4" />
                 </Link>
               </div>

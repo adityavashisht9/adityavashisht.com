@@ -19,13 +19,19 @@ export function ModeToggle() {
 
     if (currentTheme === "dark") {
       return (
-        <button onClick={() => setTheme("light")}>
+        <button
+          onClick={() => setTheme("light")}
+          className="hover:bg-accent p-2"
+        >
           <MoonIcon className="w-4 h-4" />
         </button>
       );
     } else {
       return (
-        <button onClick={() => setTheme("dark")}>
+        <button
+          onClick={() => setTheme("dark")}
+          className="hover:bg-accent p-2"
+        >
           <SunIcon className="w-4 h-4" />
         </button>
       );

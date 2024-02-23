@@ -14,7 +14,7 @@ const navItems = [
 
 export function NavBar() {
   return (
-    <nav className="flex items-center w-full justify-between">
+    <nav className="flex items-center w-full justify-between h-8">
       <ul className="flex">
         {navItems.map(({ title, href }) => (
           <li key={title} className="mr-2">
