@@ -23,13 +23,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="antialiased max-w-2xl  mx-4 lg:mx-auto flex flex-col justify-between  md:h-screen pt-10 pb-8">
+      <body className="antialiased max-w-2xl  mx-4 lg:mx-auto flex flex-col justify-between md:h-screen pt-10 pb-8">
         <ThemeProvider attribute="class" defaultTheme="system">
           <div>
             <header className="flex justify-between">
               <NavBar />
             </header>
-            <main className="mt-24 mb-8">{children}</main>
+            <main className="mt-16 mb-8 sm:mt-24">{children}</main>
           </div>
           <footer>
             <div className="flex items-center justify-between">
