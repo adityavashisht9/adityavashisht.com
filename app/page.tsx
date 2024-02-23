@@ -2,8 +2,10 @@ export default function Home() {
   return (
     <section>
       <div className="flex items-center">
-        <h1 className="text-5xl font-extrabold ">hi, I&apos;m Aditya.</h1>
-        <span className="ml-2 text-5xl animate-hand-wave">👋</span>
+        <h1 className="text-3xl font-extrabold sm:text-5xl">
+          hi, I&apos;m Aditya.
+        </h1>
+        <span className="ml-2 text-3xl animate-hand-wave sm:text-5xl">👋</span>
       </div>
       <p className="mt-2 text-ring">a front end developer based in Toronto.</p>
       <p className="mt-8 text-lg text-ring">

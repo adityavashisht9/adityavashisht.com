@@ -33,9 +33,9 @@ const data = [
 export default async function Work() {
   return (
     <section>
-      <h1 className="text-5xl font-extrabold">my work</h1>
+      <h1 className="text-3xl font-extrabold sm:text-5xl">my work 💼</h1>
       <p className="mt-2">a quick glimpse.</p>
-      <p className="mt-4 text-ring">
+      <p className="mt-8 text-ring">
         I&apos;ve been fortunate enough to contribute to significant projects
         with major companies all over Canada via Accenture. In Toronto, I helped
         develop a customer portal of an alert service for a major transport
