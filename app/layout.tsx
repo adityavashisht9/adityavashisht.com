@@ -33,7 +33,7 @@ export default function RootLayout({
           </div>
           <footer>
             <div className="flex items-center justify-between">
-              <p>Aditya Vashisht © 2024</p>
+              <p className="text-sm">Aditya Vashisht © 2024</p>
               <div className="flex items-center">
                 <Link
                   href="https://github.com/adityavashisht9"
