@@ -37,18 +37,21 @@ export default function RootLayout({
               <div className="flex items-center">
                 <Link
                   href="https://github.com/adityavashisht9"
+                  target="_blank"
                   className="hover:bg-accent p-2"
                 >
                   <GitHubLogoIcon className="w-4 h-4" />
                 </Link>
                 <Link
                   href="https://www.linkedin.com/in/adityavashisht"
+                  target="_blank"
                   className="hover:bg-accent p-2"
                 >
                   <LinkedInLogoIcon className="w-4 h-4" />
                 </Link>
                 <Link
                   href="https://twitter.com/vashishtaditya_"
+                  target="_blank"
                   className="hover:bg-accent p-2"
                 >
                   <TwitterLogoIcon className="w-4 h-4" />
