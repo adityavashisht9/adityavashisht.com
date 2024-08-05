@@ -37,12 +37,12 @@ export default async function Work() {
       <p className="mt-2">a quick glimpse.</p>
       <p className="mt-8 text-ring">
         I&apos;ve been fortunate enough to contribute to significant projects
-        with major companies all over Canada via Accenture. In Toronto, I helped
-        develop a customer portal of an alert service for a major transport
-        company in the city, aimed at enhancing customer experience with timely
-        updates for buses and trains. In Quebec, I helped build the web
-        expeience of a financial dashboard tailored for financial advisors of a
-        billion-dollar private wealth management firm.
+        with major companies all over Canada. In Toronto, I helped develop a
+        customer portal of an alert service for a major transport company in the
+        city, aimed at enhancing customer experience with timely updates for
+        buses and trains. In Quebec, I helped build the web expeience of a
+        financial dashboard tailored for financial advisors of a billion-dollar
+        private wealth management firm.
       </p>
       <Separator className="mt-6" />
       <div className="mt-6">
