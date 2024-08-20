@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="antialiased max-w-2xl  mx-4 lg:mx-auto flex flex-col justify-between md:h-screen pt-10 pb-8">
+      <body className="min-h-screen flex flex-col">
         <ThemeProvider attribute="class" defaultTheme="system">
           <div>
             <header className="flex justify-between">
@@ -31,7 +31,8 @@ export default function RootLayout({
             </header>
             <main className="mt-12 mb-8 sm:mt-24">{children}</main>
           </div>
-          <footer>
+
+          <footer className="mt-auto">
             <div className="flex items-center justify-between">
               <p className="text-sm">Aditya Vashisht © 2024</p>
               <div className="flex items-center">
