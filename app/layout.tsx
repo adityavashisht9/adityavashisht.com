@@ -30,7 +30,7 @@ export default function RootLayout({
           </header>
           <main className="pt-12">{children}</main>
 
-          <footer className="mt-auto mb-14 sm:mb-8">
+          <footer className="mt-auto">
             <div className="flex items-center justify-between">
               <p className="text-sm">Aditya Vashisht © 2024</p>
               <div className="flex items-center">
