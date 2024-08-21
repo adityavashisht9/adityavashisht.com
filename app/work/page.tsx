@@ -58,7 +58,7 @@ export default async function Work() {
         target="_blank"
         rel="noopener noreferrer"
         download
-        className="inline-flex items-center justify-center mt-6"
+        className="inline-flex items-center justify-center my-6"
       >
         <ArrowTopRightIcon className="w-4 h-4 mr-2" />
         <p className="">resume</p>
