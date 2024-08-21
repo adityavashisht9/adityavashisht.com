@@ -23,9 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="min-h-screen flex flex-col max-w-3xl mx-auto px-8">
+      <body className="min-h-screen flex flex-col max-w-3xl mx-auto px-8 py-20">
         <ThemeProvider attribute="class" defaultTheme="system">
-          <header className="flex justify-between pt-12">
+          <header className="flex justify-between">
             <NavBar />
           </header>
           <main className="pt-12">{children}</main>
