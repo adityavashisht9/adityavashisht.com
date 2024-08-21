@@ -12,7 +12,7 @@ export default function Home() {
         Currently thriving as a Development Lead at Accenture. I assist teams in
         building user expereinces utilizing cutting-edge web technologies like
         React and Next.js. If I&apos;m not working or contributing I&apos;m
-        likely at the gym, pushing my personal limits🦾
+        likely at the gym, pushing my personal limits.🦾
       </p>
     </section>
   );
