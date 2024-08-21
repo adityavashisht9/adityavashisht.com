@@ -23,14 +23,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="min-h-screen flex flex-col max-w-3xl mx-auto px-8 py-20">
+      <body className="min-h-screen flex flex-col max-w-2xl mx-auto px-8 pt-8">
         <ThemeProvider attribute="class" defaultTheme="system">
           <header className="flex justify-between">
             <NavBar />
           </header>
           <main className="pt-12">{children}</main>
 
-          <footer className="mt-auto">
+          <footer className="my-auto">
             <div className="flex items-center justify-between">
               <p className="text-sm">Aditya Vashisht © 2024</p>
               <div className="flex items-center">
