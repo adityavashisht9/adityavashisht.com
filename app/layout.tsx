@@ -23,14 +23,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="min-h-screen flex flex-col">
+      <body className="min-h-screen flex flex-col px-6 py-8 mx-auto max-w-3xl">
         <ThemeProvider attribute="class" defaultTheme="system">
-          <div>
-            <header className="flex justify-between">
-              <NavBar />
-            </header>
-            <main className="mt-12 mb-8 sm:mt-24">{children}</main>
-          </div>
+          <header className="flex justify-between">
+            <NavBar />
+          </header>
+          <main className="pt-12">{children}</main>
 
           <footer className="mt-auto">
             <div className="flex items-center justify-between">
