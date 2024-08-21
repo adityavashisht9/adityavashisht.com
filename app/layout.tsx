@@ -23,15 +23,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="min-h-screen flex flex-col px-6 pt-8 max-w-3xl mx-auto">
+      <body className="min-h-screen flex flex-col max-w-3xl mx-auto px-8">
         <ThemeProvider attribute="class" defaultTheme="system">
-          <header className="flex justify-between">
+          <header className="flex justify-between pt-12">
             <NavBar />
           </header>
           <main className="pt-12">{children}</main>
 
           <footer className="mt-auto">
-            <div className="flex items-center justify-between mb-8 sm:mb-20">
+            <div className="flex items-center justify-between">
               <p className="text-sm">Aditya Vashisht © 2024</p>
               <div className="flex items-center">
                 <Link
