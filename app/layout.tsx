@@ -33,7 +33,7 @@ export default function RootLayout({
           <footer className="my-auto">
             <div className="flex items-center mb-1">
               <Link
-                href="https://github.com/adityavsht"
+                href="https://github.com/adityaavashisht"
                 target="_blank"
                 className="hover:bg-accent p-2"
               >
